@@ -15,7 +15,7 @@
         bt_j {
             bindings = <&bt BT_CLR>;
             key-positions = <0 11>;
-            layers = <6>;
+            layers = <3>;
         };
     };
 
@@ -76,12 +76,6 @@
             >;
         };
 
-        extra_1 { status = "reserved"; };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
-
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
@@ -98,7 +92,7 @@
 
         triple {
             if-layers = <1 2>;
-            then-layer = <6>;
+            then-layer = <3>;
         };
     };
 };
